@@ -5,10 +5,12 @@ from .iterate_images import *
 from .save_description import *
 from .describe_image import *
 from .save_with_text_file import *
+from .save_with_text_file_custom import *
 
 NODE_CLASS_MAPPINGS = { 
     "Iterate Images" : IterateImages, 
     "Save With Text File" : SaveWithText,
+    "Save With Text File Custom" : SaveWithTextCustom,
 
     "Describe Image" : TextDescriptionOfImage,
     "Save Description" : SaveDescription,
